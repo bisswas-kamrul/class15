@@ -1,0 +1,128 @@
+/* all commun css start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/* all commun css end */
+/* header paret start */
+.contact{
+    padding-top: 14px;
+    padding-right: 28px;
+    padding-left: 28px;
+    padding-bottom: 14px;
+    border-radius: 18px;
+    background-color: #8454F5;
+    color: #ffff;
+}
+.nav-link{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    line-height: 24px;
+}
+.nav-link:hover{
+    color: #8454F5;
+    transition: .4s;
+}
+
+/* header part end */
+/* banner part start */
+#bannerpart{
+  background-image: url(../image/header\ content.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  margin-top: 100px;
+}
+.bennertext h3{
+    font-size: 64px;
+    font-weight: 600;
+    font-family: " open sans";
+    color: #1D354F;
+}
+.bennertext p{
+    font-size: 18px;
+    font-weight:400;
+    font-family: "nunito", serif;
+    color: #1D354F;
+    line-height: 150%;
+    padding-top: 22px;
+}
+.bennertext a{
+    margin-top: 50px;
+    height: 60px;
+    width: 150px;
+}
+/* banner part end */
+/* sarvice part start */
+.sarvicetext{
+    font-size: 64px;
+    font-weight: semi bold;
+    color: #29313D;
+    font-family: "Poppins", serif;
+    padding-top: 90px;
+}
+.sarviceitem{
+    height: 300px;
+    width: 200px;
+    background-color:#ffff;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+}
+.sarviceitem img{
+height: 90px;
+width: 100px;
+padding-top: 25px;
+}
+.sarviceitem h4{
+font-size: 28px;
+font-weight: 400;
+font-family: "Poppins", serif;
+color: #29313D;
+padding-top: 22px;
+}
+.sarviceitem p{
+font-size: 13px;
+font-weight: 200;
+font-family: "Poppins", serif;
+color: #29313D;
+line-height: 200%;
+padding-top: 10px;
+}
+.sarviceitem a{
+padding-top: 28px;
+}
+.sarviceitem h5{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+    color: #29313D;
+    padding-top: 22px;
+}
+.sarviceitem:hover{
+    transition: .4s;
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+}
+/* sarvice part end */
