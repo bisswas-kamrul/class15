@@ -50,27 +50,32 @@ h1,h2,h3,h4,h5,h6,p{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 50px;
-  margin-top: 100px;
+  height: 320px;
+  width: 1030px;
+  margin-top: 50px;
 }
 .bennertext h3{
-    font-size: 64px;
+    font-size: 51px;
     font-weight: 600;
     font-family: " open sans";
     color: #1D354F;
+    padding-top: 35px;
+    padding-left: 20px;
 }
 .bennertext p{
-    font-size: 18px;
+    font-size: 16px;
     font-weight:400;
     font-family: "nunito", serif;
     color: #1D354F;
     line-height: 150%;
     padding-top: 22px;
+    padding-left: 20px;
 }
 .bennertext a{
     margin-top: 50px;
     height: 60px;
     width: 150px;
+    margin-left: 20px;
 }
 /* banner part end */
 /* sarvice part start */
@@ -82,27 +87,27 @@ h1,h2,h3,h4,h5,h6,p{
     padding-top: 90px;
 }
 .sarviceitem{
-    height: 300px;
+    height: 250px;
     width: 200px;
-    background-color:#ffff;
+    background-color:#FDFDFD;
     margin-top: 70px;
     margin-bottom: 100px;
     margin-left: 40px;
 }
 .sarviceitem img{
 height: 90px;
-width: 100px;
+width: 70px;
 padding-top: 25px;
 }
 .sarviceitem h4{
-font-size: 28px;
+font-size: 20px;
 font-weight: 400;
 font-family: "Poppins", serif;
 color: #29313D;
 padding-top: 22px;
 }
 .sarviceitem p{
-font-size: 13px;
+font-size: 12px;
 font-weight: 200;
 font-family: "Poppins", serif;
 color: #29313D;
@@ -113,7 +118,7 @@ padding-top: 10px;
 padding-top: 28px;
 }
 .sarviceitem h5{
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 400;
     font-family: "Poppins", serif;
     color: #29313D;
@@ -126,3 +131,359 @@ padding-top: 28px;
 box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
 }
 /* sarvice part end */
+/* apps part start */
+.apps{
+    position: relative;
+}
+.apps img{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    height: 310px;
+    width: 270px;
+    position:absolute;
+}
+.app img{
+    position: absolute;
+    height: 310px;
+    width: 150px;
+    margin-top: 35px;
+    margin-left: 110px;
+}
+.appstext h3{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    color: #29313D;
+    line-height: 140%;
+    padding-left: 10px;
+    padding-top: 50px;
+}
+.appstext p{
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Nunito", serif;
+    color: #29313D;
+    line-height: 200%;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.appsitem{
+    margin-left: 20px;
+}
+.appsitem img{
+    padding-top: 10px;
+    margin-left: 5px;
+}
+.appsitem h6{
+   padding-left: 10px;
+   padding-top: 5px;
+   font-size: 13px;
+   color: #29313D;
+   font-family: "Poppins", serif;
+}
+.appsitem p{
+   padding-left: 10px;
+   font-size: 9px;
+   line-height: 200%;
+   color: #29313D;
+   font-family: "Nunito", serif;
+}
+.appsitem a{
+   padding-left: 10px;
+}
+/* apps part end */
+/* over part start */
+.over h3{
+   font-size: 23px;
+   font-weight: 600;
+   font-family: "Poppins", serif;
+   color: #29313D;
+   padding-top: 150px;
+   padding-left: 50px;
+   line-height: 120%;
+}
+.over p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Nunito", serif;
+    color: #29313D;
+    line-height: 200%;
+    padding-left: 50px;
+}
+.overitem{
+    margin-left: 20px;
+}
+.overitem img{
+    padding-top: 10px;
+    margin-left: 30px;
+}
+.overitem h6{
+    padding-left: 30px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    color: #29313D;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.overitem p{
+    padding-left: 30px;
+    font-size: 8px;
+    line-height: 200%;
+    color: #29313D;
+    font-family: "Nunito", serif;
+ }
+.overitem a{
+    padding-left: 30px;
+ }
+ .world{
+    position: relative;
+ }
+ .world img{
+    height: 310px;
+    width: 270px;
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    position: absolute;
+ }
+ .worlde img{
+    height: 310px;
+    width: 150px;
+    margin-top: 135px;
+    margin-left: 110px;
+    margin-bottom: 30px;
+    position: absolute;
+ }
+/* over part end */
+/* Creative part start */
+.Creativetext h3{
+font-size: 30px;
+font-weight: 600;
+font-family: "Poppins", serif;
+padding-top: 150px;
+text-align: center;
+}
+.Creativetext p{
+font-size: 18px;
+font-weight: 400;
+font-family: "Nunito", serif;
+padding-top: 15px;
+text-align: center;
+line-height: 200%;
+}
+.Creativeitem{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+.Creativeitem img{
+    margin-top: 40px;
+    height: 60%;
+    width: 100%;
+    margin-left: 15px;
+}
+/* Creative part end */
+/* companies part start */
+
+.row{
+    display: flex;
+    
+}
+.top h3{
+    font-size: 23px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    color: #29313D;
+    padding-left: 50px;
+    line-height: 150%;
+}
+.bt{
+    height: 50px;
+    width: 100px;
+    background-color: blueviolet;
+    border-radius: 10%;
+    margin-left: 42%;
+    margin-top: 120px;
+}
+.bt a{
+    color: #fff;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.topitem{
+    display: flex;
+}
+.topitem img{
+    padding-top: 20px;
+    padding-left: 50px;
+    height: 110px;
+    width: 225px;
+    padding-top: 30px;
+}
+/* companies part end */
+/* trail part start */
+.row h3{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    color: #29313D;
+    text-align: center;
+    padding-top: 100px;
+}
+.row p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #29313D;
+    text-align: center;
+    line-height: 200%;
+    font-family: "Nunito", serif;
+    padding-top: 10px;
+}
+.row span i{
+    margin-top: 10px;
+    height: 100%;
+    width: 100%;
+    margin-left: 50%;
+}
+.trail{
+    display: flex;
+}
+.trailitem{
+    height: 300px;
+    width: 235px;
+    background-color:#FDFDFD;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.trailitem h6{
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+.dolar{
+    display: flex;
+    justify-content: space-between;
+}
+.dolarl h3{
+    padding-top: 15px;
+    padding-left: 15px;
+    color: #29313D;
+}
+.dolarl p{
+    font-size: 10px;
+    padding-left: 15px;
+    color: #29313D;
+    line-height: 200%;
+    font-weight: 200;
+    font-family: "Nunito", serif;
+    padding-top: 5px;
+}
+.dolarr{
+    height: 25px;
+    width: 50px;
+    background-color: #8454F5;
+    margin-top: 15px;
+    border-radius: 10%;
+}
+.dolarr a{
+    font-size: 9px;
+    color: #29313D;
+    padding-left: 3px;
+}
+/* trail part end */
+/* posts part start */
+.postrow{
+    display: flex;
+    justify-content: space-between;
+}
+.postPart1 h3{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    color: #29313D;
+    padding-left: 30px;
+}
+.recent{
+    display: flex;
+}
+.recent img{
+    height: 200px;
+    width: 250px;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+.text h6{
+    font-size: 10px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    color: #29313D;
+    line-height: 150%;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.felex{
+    display: flex;
+}
+.img{
+    height: 30px;
+    width: 30px;
+    background-color:#C4C4C4;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.felex h5{
+    padding-left: 10px;
+    font-size: 18px;
+    font-family: "Nunito", serif;
+    color: #29313D;
+    padding-top: 10px;
+    font-weight: 600;
+}
+.text p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #29313D;
+    font-family: "Nunito", serif;
+    padding-left: 20px;
+    padding-top: 5px;
+    line-height: 160%;
+}
+.textbtn{
+    height: 40px;
+    width: 70px;
+    background-color:blueviolet;
+    border-radius: 10%;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+.textbtn a{
+    font-size: 10px;
+    color: #FDFDFD;
+    padding-left: 18px;
+    padding-top: 13px;
+}
+.us{
+    display: flex;
+    
+}
+.us h5{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    color: #29313D;
+}
+.us i{
+    height: 10px;
+    width: 30px;
+    padding-left: 5px;
+}
+.u{
+    height: 2px;
+    width: 170px;
+    background-color: black;
+    margin-top: 15px;
+
+}
+/* posts part end */
